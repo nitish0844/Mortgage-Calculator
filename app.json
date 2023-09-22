@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "sampleapplication",
+    "name": "Mortgage Calculator",
     "slug": "sampleapplication",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.nitish0844.sampleapplication"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e76c845d-a605-42da-bfb7-66730597917c"
+      }
     }
   }
 }
